@@ -1,0 +1,6 @@
+{
+  "name": "MediAdmin",
+  "description": "Sistema de gestión médica integral: liquidaciones, débitos, tesorería, autorizaciones en tiempo real, caja de médicos y lista dinámica de tareas automatizada.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

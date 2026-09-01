@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-primary: #24389c;
+    --color-primary-container: #3f51b5;
+    --color-on-primary: #ffffff;
+    --color-on-primary-container: #cacfff;
+    --color-primary-fixed: #dee0ff;
+    --color-surface: #fbf8ff;
+    --color-surface-dim: #dbd9e2;
+    --color-surface-container-lowest: #ffffff;
+    --color-surface-container-low: #f4f2fc;
+    --color-surface-container: #efedf6;
+    --color-surface-container-high: #e9e7f0;
+    --color-surface-container-highest: #e3e1ea;
+    --color-on-surface: #1a1b22;
+    --color-on-surface-variant: #454652;
+    --color-outline: #757684;
+    --color-outline-variant: #c5c5d4;
+    --color-background: #fbf8ff;
+    --color-on-background: #1a1b22;
+    --color-error: #ba1a1a;
+    --color-error-container: #ffdad6;
+    --color-on-error-container: #93000a;
+    --color-tertiary: #6c3400;
+    --color-tertiary-fixed: #ffdcc6;
+    --color-on-tertiary-fixed: #301400;
+  }
+
+  body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    color: #1a1b22;
+    background-color: #fbf8ff;
+  }
+}
+
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f4f2fc;
+}
+::-webkit-scrollbar-thumb {
+  background: #c5c5d4;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #757684;
+}
+
+/* Tabular nums for billing numbers */
+.font-tabular {
+  font-variant-numeric: tabular-nums;
+}
